@@ -11,7 +11,7 @@ export const Room = ({ room, checkin, checkout }) => {
             <div className="col-md-4">
                 <img src={room.imageUrls[0]} alt={room.name} className="smallimg" />
             </div>
-            <div className="col-md-7">
+            <div className="col-md-7 my-2">
                 <h3>{room.name}</h3>
                 <p>Max Count: {room.maxCount}</p>
                 <p>Phone: {room.phoneNumber}</p>
